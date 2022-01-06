@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Contador</title>
+</head>
+
+<body>
+    <h1>Olá!</h1>
+    <p>Este é um projeto de contador em javascript utilizando DOM e o método addEventListener</p>
+    <div id="counter">
+        <button name="adicionar" onclick="increment()">+</button>
+        <span id="currentNumber">0</span>
+        <button name="subtrair" onclick="decrement()">-</button>
+    </div>
+    <h4>Como funciona:</h4>
+    <ul>
+        <li>Clique em diminuir ou aumentar para alterar o valor do contador</li>
+        <li>Os botãos são desabilitados se o contador sair da margem de -9 a +9</li>
+        <li>Se o contador estiver com um número negativo, o mesmo irá ficar em cor vermelha</li>
+    </ul>
+    <footer>
+        <p>Desenvolvido por Vinícius Menezes</p>
+    </footer>
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
