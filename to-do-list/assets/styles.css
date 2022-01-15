@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F62D0C;
+}
+
+#to-do-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#tarefa {
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 0px;
+    color: black;
+}
+
+#buttonSubmit {
+    height: 30px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #E4EBEC;
+    background-color: #F56A56;
+    color: white;
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonSubmit:hover {
+    background-color: grey;
+}
+
+#checkBox:checked + label {
+    color:black;
+    text-decoration: line-through;
+}
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
