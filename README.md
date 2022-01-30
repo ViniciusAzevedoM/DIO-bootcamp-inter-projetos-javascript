@@ -1,4 +1,3 @@
-# DIO-bootcamp-inter-projetos-javascript
-## Bootcamp da Digital Innovation One em parceria com o Inter
+# Projetos em JavaScript
 
-Repositórios de projetos em javascript, CSS e HTML.
+Todos os projetos desse repositório foram inspirados nos desafios/projetos do Bootcamp da Digital Innovation One com parceria com o Inter.
